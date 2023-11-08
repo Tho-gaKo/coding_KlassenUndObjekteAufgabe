@@ -23,6 +23,14 @@ public class Main {
         library.getBookArr();
         System.out.println(Arrays.toString(library.getBookArr()));
         System.out.println(library);
+
+
+
+        Library library1 = new Library();
+        library1.setBookArr(new Book[]{book, book2, book3});
+
+        System.out.println(library1);
+
     }
 
 
