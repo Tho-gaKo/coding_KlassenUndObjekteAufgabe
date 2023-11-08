@@ -10,9 +10,8 @@ public class Library {
     public Book[] getBookArr() {
         return bookArr;
     }
-    @Override
     public String toString() {
-        return "Library{"; +
+        return "Library{" +
                 "books=" + Arrays.toString(bookArr) +
                 '}';
 
