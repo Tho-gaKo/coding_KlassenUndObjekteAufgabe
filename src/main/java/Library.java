@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Library {
 
     private Book[] bookArr;
@@ -8,8 +10,12 @@ public class Library {
     public Book[] getBookArr() {
         return bookArr;
     }
+    @Override
     public String toString() {
-        return
+        return "Library{"; +
+                "books=" + Arrays.toString(bookArr) +
+                '}';
+
     }
 
 
